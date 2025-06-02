@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Emily Liang} \\ \vspace{1pt}
+    \small 0988535798 $|$ \href{mailto:x@x.com}{\underline{emilywliang@gmail.com}} 
+    %\href{https://www.linkedin.com/in/oren-kaplan-8380b1231/}%{\underline{https://www.linkedin.com/in/oren-kaplan}} $|$
+    $|$ {\small{Taipei, Taiwan}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, San Diego}{San Diego, CA}
+      {B.S. in Bioinformatics, minor in Computer Science - GPA: 3.66/4.00}{Sep. 2020 -- June 2024}\hfill \break
+
+
+
+  \textbf{Relevant Coursework}{: Probability and Statistics, Data Science in Practice, Molecular Sequence Analysis, Data Structures and Object-oriented Design, Design and Analysis of Algorithms, Applied Genomic Technologies} 
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+%\section{Volunteer Experience}
+%  \resumeSubHeadingListStart
+
+ %   \resumeSubheading
+  %    {Research Lab Volunteer}{Nov. 2024 -- present}
+   %   {Tukey Lab, UCSD}{La Jolla, CA}
+    %  \resumeItemListStart
+     %   \resumeItem{Conducted PCR assays to amplify DNA for analysis, ensuring accuracy in sample preparation and handling.}
+      %  \resumeItem{Collected and processed tissue samples from mice, following standardized protocols for tissue preservation and documentation.}
+       % \resumeItem{Assisted with routine laboratory tasks, including reagent preparation, sample labeling, and equipment maintenance, to support daily lab operations.}
+       % \resumeItem{Maintained cleanliness and organization of lab areas, adhering to strict safety and quality control standards.}
+      %\resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+ % \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Research \& Projects}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+      {Research Lab Volunteer}{Nov. 2024 -- March 2025}
+      {Tukey Lab, UCSD}{La Jolla, CA}
+      \resumeItemListStart
+        \resumeItem{Conducted PCR assays to amplify DNA for analysis, ensuring accuracy in sample preparation and handling.}
+        \resumeItem{Collected and processed tissue samples from mice, following standardized protocols for tissue preservation and documentation.}
+        \resumeItem{Assisted with routine laboratory tasks, including reagent preparation, sample labeling, and equipment maintenance, to support daily lab operations.}
+        \resumeItem{Maintained cleanliness and organization of lab areas, adhering to strict safety and quality control standards.}
+      \resumeItemListEnd
+        \resumeSubheading
+        {Tumor Tissue Type Analysis for ecDNA and Gene Identification}{Jan. 2024 - March 2024}
+        {Python, BLAST}{Team size: 3}
+            \resumeItemListStart
+            \resumeItem{Analyzed 500+ ecDNA regions to identify 30+ key tumor-driving genes.} 
+            \resumeItem{Optimized BLAST workflows, reducing search time by 40\%.}
+            \resumeItem{Implemented efficient filtering processes to pinpoint ecDNA regions lacking high-frequency genes, enabling a focused analysis of potential driver genes.}
+            % \resumeItem{Hypothesized potential tumor-driving genes based on ecDNA analysis, contributing to understanding their role in tumor development.}
+        \resumeItemListEnd
+        \resumeSubheading
+        {Protest-Related Lexicons and Magnitude of Protests Data Analysis}{March 2024 - June 2024}
+        {Python, TF-IDF, Vader}{Team size: 5}
+          \resumeItemListStart
+            \resumeItem{Analyzed 6 protest-related lexicons; identified 2 key terms ("protest" and "riot") with significant correlations to protest sizes (r = 0.62 and 0.32).} 
+            \resumeItem{Conducted OLS regression; achieved statistically significant results (p = 0.0) for key terms predicting protest density.}
+            \resumeItem{Quantified word frequency trends across protests using TF-IDF, linking increases in specific lexicons to social movement magnitudes.}
+            \resumeItem{The project provided actionable insights by identifying significant lexicons ("protest" and "riot") correlated with protest magnitudes, advancing the understanding of social movement dynamics and demonstrating the utility of TF-IDF and OLS regression for such analyses.}
+            %\resumeItem{Created impactful visualizations showcasing correlations between social media activity and protest events, supporting data-driven insights.}
+         \resumeItemListEnd
+        \resumeSubheading
+        {KmerEstimator: Estimating Optimal K-mer Sizes for Genomic Analyses}{March 2024 - June 2024}
+        {Python}{Team size: 3}
+            \resumeItemListStart
+            \resumeItem{Developed a Python program inspired by KmerGenie to estimate optimal k-mer sizes for genomic datasets.}
+            \resumeItem{Implemented workflows to preprocess sequence data and calculate k-mer histograms using custom algorithms.} 
+            \resumeItem{Designed statistical methods to evaluate k-mer distributions and identify optimal sizes for assembly quality.} 
+            \resumeItem{Gained hands-on experience with algorithm design, sequence data analysis, and benchmarking against existing tools.} 
+        \resumeItemListEnd
+
+
+
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, Matlab} \\
+     \textbf{Scripting and Tools}{: Bash, Linux, Github} \\
+     \textbf{Data Analysis}{: Statistical Methods (Descriptive, Inferential, Hypothesis Testing), Regression, Multivariate Analysis}\\
+     \textbf{Bioinformatics Tools}{: Sequence Alignment (BWA-MEM, STAR), Variant Analysis (VARSCAN, BCFTools), Quality Control (FASTQC, Sickle), Functional Analysis (BLAST, HMMER), Transcript Quantification (RSEM), Data Indexing (Jellyfish)}\\
+     \textbf{Biological Techniques}{: qRT-PCR, PCR, Gel Electrophoresis, RNA Extraction, Western Blotting}
+     \\
+     % \textbf{Interpersonal Skills}{: Teamwork, Communication, Detail-Oriented, Adaptability, Problem-Solving, Critical Thinking, Analytics} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
