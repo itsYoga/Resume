@@ -1,6 +1,6 @@
 # YuJia Liang's Resume
 
-This repository contains my professional resume in both LaTeX and HTML formats. The HTML version is deployed using GitHub Pages and can be accessed at [https://itsyoga.github.io/resume](https://itsyoga.github.io/resume).
+This repository contains my professional resume in both LaTeX and HTML formats. The HTML version is deployed using GitHub Pages and can be accessed at [https://itsyoga.github.io/resume](https://itsyoga.github.io/Resume/).
 
 ## Contents
 
