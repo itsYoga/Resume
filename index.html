@@ -16,79 +16,123 @@
         }
         .header {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .header h1 {
-            font-size: 24pt;
-            margin: 0;
+            font-size: 28pt;
+            margin: 0 0 5px 0;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
         .contact-info {
             margin: 10px 0;
             font-size: 10pt;
+            line-height: 1.8;
         }
+        .contact-info a {
+            color: #000;
+            text-decoration: underline;
+        }
+        .contact-info a:hover {
+            color: #666;
+        }
+
         .section {
-            margin: 15px 0;
+            margin: 25px 0;
         }
         .section-title {
             text-transform: uppercase;
-            font-size: 14pt;
-            border-bottom: 1px solid #333;
-            padding-bottom: 3px;
-            margin-bottom: 10px;
+            font-size: 16pt;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
             font-weight: bold;
         }
-        .subheading {
-            margin: 8px 0;
+
+        .entry {
+            margin-bottom: 18px;
         }
-        .subheading h3 {
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        .entry-header h3 {
             margin: 0;
-            font-size: 11pt;
+            font-size: 12pt;
             font-weight: bold;
+            flex-grow: 1;
+            padding-right: 10px;
         }
-        .subheading .date {
-            color: #666;
+        .entry-header .date {
+            color: #555;
             font-style: italic;
             font-size: 10pt;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
-        .subheading .location {
-            font-style: italic;
+        .entry-subheader {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
             font-size: 10pt;
-            color: #666;
+            color: #444;
+            margin-bottom: 5px;
         }
+        .entry-subheader .details, .entry-subheader .location {
+            font-style: italic;
+        }
+        .entry-subheader .location {
+            text-align: right;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .entry-subheader .details {
+            flex-grow: 1;
+            padding-right: 10px;
+        }
+
+        .entry ul {
+            margin: 5px 0 5px 20px;
+            padding-left: 20px;
+        }
+        .entry li {
+            margin: 3px 0;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+
+        .relevant-courses {
+            margin: 10px 0 5px 0;
+            font-size: 10pt;
+        }
+        .relevant-courses strong {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+
         .skills-list {
             margin: 0;
             padding: 0;
             list-style: none;
         }
         .skill-category {
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+            font-size: 10pt;
         }
         .skill-category strong {
             font-weight: bold;
+            display: inline-block;
+            width: 180px;
         }
+
         a {
             color: #000;
             text-decoration: underline;
         }
         a:hover {
             color: #666;
-        }
-        ul {
-            margin: 5px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin: 2px 0;
-            font-size: 10pt;
-        }
-        .relevant-courses {
-            margin: 5px 0;
-            font-size: 10pt;
-        }
-        .relevant-courses strong {
-            font-weight: bold;
         }
     </style>
 </head>
@@ -107,11 +151,15 @@
 
     <div class="section">
         <h2 class="section-title">Education</h2>
-        <div class="subheading">
-            <h3>National Taiwan Ocean University</h3>
-            <span class="location">Keelung, Taiwan</span>
-            <div>B.S. in Computer Science and Engineering - GPA: 3.5/4.0</div>
-            <span class="date">Sep. 2022 -- Present (EST. May 2026)</span>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>National Taiwan Ocean University</h3>
+                <span class="date">Sep. 2022 – Present (EST. May 2026)</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details">B.S. in Computer Science and Engineering - GPA: 3.5/4.0</span>
+                <span class="location">Keelung, Taiwan</span>
+            </div>
         </div>
         <div class="relevant-courses">
             <strong>Relevant Courses:</strong> Data Structures, Algorithms, Operating Systems, Computer Networks, Database Systems, Digital Logic, Computer Organization, Information Security, Introduction to AI, Web Programming, Java, Python, Verilog, SwiftUI, Graph Algorithms, Discrete Mathematics
@@ -121,53 +169,73 @@
     <div class="section">
         <h2 class="section-title">Research & Projects</h2>
         
-        <div class="subheading">
-            <h3>Volleyball Line Judging System</h3>
-            <span class="date">Nov. 2024 -- present</span>
-            <div>OpenCV, Python | Advisor: Prof. Pei-Yi, Ding</div>
-            <div>NTOU CSE</div>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Volleyball Line Judging System</h3>
+                <span class="date">Nov. 2024 – present</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details">OpenCV, Python | Advisor: Prof. Pei-Yi, Ding</span>
+                <span class="location">NTOU CSE</span>
+            </div>
             <ul>
                 <li>Designed an automated in/out detection system for volleyball using OpenCV and image classification.</li>
                 <li>Captured and processed real-time court imagery to identify ball boundaries and improve officiating accuracy.</li>
             </ul>
         </div>
 
-        <div class="subheading">
-            <h3>ASL Hand Gesture Recognition App</h3>
-            <span class="date">Dec. 2024 -- Feb. 2025</span>
-            <div>SwiftUI, CreateML</div>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>ASL Hand Gesture Recognition App</h3>
+                <span class="date">Dec. 2024 – Feb. 2025</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details">SwiftUI, CreateML</span>
+                <span class="location">WWDC2025 Submission</span>
+            </div>
             <ul>
                 <li>Trained a custom machine learning model to classify 28 hand gestures (A-Z, Space, Delete) using CreateML.</li>
                 <li>Integrated real-time camera input into a SwiftUI iOS app to enable sentence construction from gestures.</li>
                 <li>Designed a user-friendly interface for accessibility in communication.</li>
-                <li>WWDC2025 Submission</li>
             </ul>
         </div>
 
-        <div class="subheading">
-            <h3>School Course Selection Web System</h3>
-            <span class="date">Dec. 2024 -- Jan. 2025</span>
-            <div>PHP, MySQL | Team size: 3</div>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>School Course Selection Web System</h3>
+                <span class="date">Dec. 2024 – Jan. 2025</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details">PHP, MySQL | Team size: 3</span>
+            </div>
             <ul>
                 <li>Developed a role-based course selection platform with secure login and selection validation.</li>
                 <li>Implemented admin-side class management and backend database integration.</li>
             </ul>
         </div>
 
-        <div class="subheading">
-            <h3>College Weather Info App</h3>
-            <span class="date">March 2024 -- June 2024</span>
-            <div>Java | Team size: 2</div>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>College Weather Info App</h3>
+                <span class="date">March 2024 – June 2024</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details">Java | Team size: 2</span>
+            </div>
             <ul>
                 <li>Built a desktop application using Java Swing and Taiwan Open Data APIs.</li>
                 <li>Enabled college search, real-time weather updates, and user subscription management.</li>
             </ul>
         </div>
 
-        <div class="subheading">
-            <h3>Japanese Learning Web App</h3>
-            <span class="date">Nov. 2023 -- Jan. 2024</span>
-            <div>EJC, Javascript, CSS | Team size: 2</div>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Japanese Learning Web App</h3>
+                <span class="date">Nov. 2023 – Jan. 2024</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details">EJC, Javascript, CSS | Team size: 2</span>
+            </div>
             <ul>
                 <li>Created an interactive language learning platform focused on Japanese vocabulary and kanji.</li>
                 <li>Designed intuitive navigation and responsive layout to enhance learning experience.</li>
@@ -195,21 +263,33 @@
 
     <div class="section">
         <h2 class="section-title">Extracurricular Activities</h2>
-        <div class="subheading">
-            <h3>National Taiwan Ocean University Tennis Team Member</h3>
-            <span class="date">2022 - 2023</span>
-            <span class="location">Keelung, Taiwan</span>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>National Taiwan Ocean University Tennis Team Member</h3>
+                <span class="date">2022 - 2023</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details"></span>
+                <span class="location">Keelung, Taiwan</span>
+            </div>
         </div>
 
-        <div class="subheading">
-            <h3>Volleyball Department Team Member</h3>
-            <span class="date">2022 - 2023</span>
-            <span class="location">Keelung, Taiwan</span>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Volleyball Department Team Member</h3>
+                <span class="date">2022 - 2023</span>
+            </div>
+            <div class="entry-subheader">
+                <span class="details"></span>
+                <span class="location">Keelung, Taiwan</span>
+            </div>
         </div>
 
-        <div class="subheading">
-            <h3>Hackathon Participant</h3>
-            <span class="date">2024</span>
+        <div class="entry">
+            <div class="entry-header">
+                <h3>Hackathon Participant</h3>
+                <span class="date">2024</span>
+            </div>
         </div>
     </div>
 </body>
