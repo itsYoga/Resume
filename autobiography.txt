@@ -1,0 +1,56 @@
+Autobiography
+
+I am a student with an international educational background. During my high school years, I chose to study at Cotter High School in the United States. This experience not only exposed me to different educational cultures but also helped me develop independence and self-reliance. While studying in the U.S., I had to adapt to an all-English learning environment and learn to take care of myself in a foreign country, experiences that have made me more mature and responsible.
+
+During my time at Cotter High School, I actively participated in various school activities and interacted with students from different countries. This experience broadened my international perspective and taught me how to interact with people from diverse cultural backgrounds. Academically, I worked hard to overcome language barriers, diligently studied various subjects, and participated in extracurricular activities to develop diverse interests.
+
+After graduating from high school, I chose to return to Taiwan to continue my education. This decision allowed me to combine the international perspective gained from my American education with my understanding of Taiwanese culture. During my university years, I maintained an active learning attitude and applied my international experiences to my studies and daily life.
+
+Important courses taken during university:
+- Data Structures and Algorithms
+- Operating Systems
+- Computer Networks
+- Database Systems
+- Software Engineering
+- Introduction to Artificial Intelligence
+- Machine Learning
+- Web Programming
+- Cloud Computing
+- Information Security
+- Systems Analysis and Design
+- Project Management
+- Object-Oriented Programming
+- Distributed Systems
+- Big Data Analysis
+
+In terms of professional skills, I am proficient in multiple programming languages, including Python, JavaScript, and C++, with extensive experience in web development. I am familiar with frontend frameworks such as React and Vue.js, as well as backend technologies like Node.js and Django. In database management, I am skilled in using MySQL and MongoDB. Additionally, I have experience with cloud service platforms such as AWS and Google Cloud.
+
+In terms of practical experience, I have participated in multiple project developments, including e-commerce platforms, social media applications, and data analysis systems. These project experiences have taught me how to collaborate with teams and complete tasks under pressure. I also actively participate in open-source projects, continuously learning about the latest technological trends.
+
+Relevant Training Records:
+- AWS Certified Solutions Architect - Associate
+- Google Cloud Professional Developer
+- Scrum Master Certification
+- Data Science and Machine Learning Specialized Course
+- Agile Development Methodology Training
+
+Specialties:
+- Full-stack Web Development
+- Cloud Architecture Design
+- Database Optimization
+- System Integration
+- API Design and Development
+
+Other Skills:
+- Project Management: Familiar with agile development methodologies, capable of project planning and execution
+- Problem Solving: Skilled in analyzing complex problems and proposing solutions
+- Team Collaboration: Experience in cross-departmental communication and coordination
+- Technical Documentation: Ability to write clear technical documentation and user manuals
+- Version Control: Familiar with Git workflow and team collaboration patterns
+
+Language Proficiency:
+- Chinese (Native)
+- English (Fluent, TOEFL 100+)
+- Japanese (Basic Conversational)
+
+My educational journey has equipped me with cross-cultural communication skills and the flexibility to adapt to different environments. These qualities have not only helped my academic pursuits but have also laid a solid foundation for my future career development. I believe that combining my educational experiences in the United States and Taiwan with my solid technical capabilities, I can face future challenges with a broader perspective. 
